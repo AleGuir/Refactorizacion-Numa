@@ -1,0 +1,1 @@
+Esta carpeta data se usa para crear un ts en donde estara la informacion que necesita cada pagina cuando se usa el mismo diseño pero lo que cambia es la informacion y solo se mandan las variables  al layout general, asi si entra un nuevo servicio, solo se agregar un nuevo vector con su informacion y no toca crear nada desde cero
