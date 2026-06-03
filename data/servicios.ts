@@ -44,11 +44,11 @@ export const servicios = [
 
     },
     {
-        slug: "Consulta médica integrativa",
+        slug: "consulta-medica-integrativa",
 
         hero:{
 
-            title: "Consulta médica  general",
+            title: "Consulta médica integrativa",
             duracion: "40 a 60 minutos",
             textoAdicional: "Tu bienestar es nuestra prioridad",
 
@@ -88,7 +88,7 @@ export const servicios = [
 
     },
     {
-        slug: "Consulta médica integrativa",
+        slug: "Terapia-fisica",
 
         hero:{
 

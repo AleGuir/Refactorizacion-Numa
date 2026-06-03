@@ -9,6 +9,7 @@
 @theme {
   --font-display: var(--font-numa-display);
   --font-body: var(--font-numa-body);
+  --font-displayBold: var(--font-numa-displayBold);
 }
 
 @theme inline {

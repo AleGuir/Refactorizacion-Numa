@@ -25,7 +25,7 @@ export default function SeccionesServicio({ secciones, boton }: Props) {
   const columnaDerecha = secciones.slice(mitad);
 
   return (
-    <section className="mx-auto w-full max-w-5xl px-6">
+    <section className="mx-auto w-full max-w-6xl px-6">
       <div className="grid grid-cols-1 gap-x-16 gap-y-12 md:grid-cols-2">
         {/* Izquierda: arranca arriba (sin desnivel) */}
         <Columna secciones={columnaIzquierda} />
@@ -70,10 +70,10 @@ function Columna({
               className="absolute left-[7px] top-3 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-black"
             />
 
-            <h3 className="text-lg font-semibold text-black md:text-xl">
+            <h2 className="font-displayBold text-lg text-black md:text-xl lg:text-2xl">
               {seccion.title}
-            </h3>
-            <p className="mt-2 max-w-prose text-sm leading-relaxed text-black/80 md:text-base">
+            </h2>
+            <p className="font-body mt-2 max-w-prose text-sm leading-relaxed text-black/80 md:text-base lg:text-lg">
               {seccion.content}
             </p>
           </div>
@@ -85,7 +85,7 @@ function Columna({
             href={boton.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-8 inline-flex w-fit items-center justify-center rounded-full bg-[#DFFF69] px-8 py-3 font-medium text-black transition-colors hover:bg-[#d2f24f]"
+            className="font-body ml-8 inline-flex w-fit items-center justify-center rounded-full bg-[#DFFF69] px-8 py-3 font-medium text-black transition-colors hover:bg-[#d2f24f]"
           >
             {boton.title}
           </a>
